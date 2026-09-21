@@ -1,0 +1,14 @@
+{
+    "abDependencies": {
+        
+        "ab-data": "https://github.com/allblue-pl/js_ab-data",
+        "ab-data_db-sync": "https://github.com/allblue-pl/node_ab-data_db-sync",
+        "ab-data_espada_ecore": "https://github.com/allblue-pl/node_ab-data_espada_ecore"
+    },
+    "abTS": {
+        "tsconfig": ".",
+        "libs": [
+            "."
+        ]
+    }
+}

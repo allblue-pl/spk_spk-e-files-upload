@@ -1,0 +1,6 @@
+{
+  "name": "spk-e-files-upload_ddev",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.js"
+}

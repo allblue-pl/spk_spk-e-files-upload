@@ -1,0 +1,16 @@
+{
+    "abDependencies": {
+        "@allblue/e-libs": "https://github.com/allblue-pl/web-js_e-libs",
+        "ab-strings": "https://github.com/allblue-pl/js_ab-strings",
+        "spk-file-upload": "https://github.com/allblue-pl/spk_spk-file-upload",
+        "spk-messages": "https://github.com/allblue-pl/spk_spk-messages",
+        "spocky": "https://github.com/allblue-pl/web-js_spocky",
+        "web-ab-api": "https://github.com/allblue-pl/web-js_web-ab-api"
+    },
+    "abTS": {
+        "tsconfig": ".",
+        "libs": [
+            "."
+        ]
+    }
+}
