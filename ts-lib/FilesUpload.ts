@@ -47,7 +47,7 @@ export default class FilesUpload extends Module {
         this.#liveUpload = new LiveUpload(title, this.#category.type, {
             onCopy: (file) => {
                 navigator.clipboard.writeText(file.uri).then(() => {
-                    this.#msgs.showNotification_Success(eTexts.get(
+                    this.#msgs.showNotification_Info(eTexts.get(
                             "FilesUpload:Notifications_Copied"));
                 });
             },
