@@ -63,7 +63,7 @@ export default class FilesUpload extends Module {
             },
         }, {
             exts: this.#category.type === 'image' ? 
-                '.jpg, .jpeg, .png, .gif' : this.#getExts(),
+                '.jpg, .jpeg, .png, .gif, .webp' : this.#getExts(),
             dummyImageUri: dummyImageUri,
         });
         this.#liveUpload.showLoading();
